@@ -1,0 +1,19 @@
+﻿@model MovieStoreMvc.Models.Domain.Movie
+@{
+}
+<div class="movie-detail w-80 m-auto">
+    <div class="img-container">
+        <img alt="image" src="/Uploads/@Model.MovieImage">
+    </div>
+
+    <div class="detail-container">
+        <h2>Title : @Model.Title</h2>
+        <h2>@Model.GenreNames</h2>
+        <h2>Production year : @Model.ReleaseYear</h2>
+        <h2>Cast : @Model.Cast</h2>
+        <h2>Director : @Model.Director</h2>
+    </div>
+</div>
+<div class="w-80 m-auto">
+    <a href="/Home/Index" class="btn btn-default">Back</a>
+</div>
