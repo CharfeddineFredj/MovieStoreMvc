@@ -46,4 +46,17 @@ The system allows **image uploads** (such as movie posters) and ensures that onl
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/movie-store.git
-   cd movie-store
+   Navigate to the project folder
+ 2.  **cd movie-store**:
+   dotnet restore
+3. **Restore NuGet dependencies**:
+   dotnet restore
+4. **Configure the database connection**:
+"ConnectionStrings": {
+  "DefaultConnection": "Server=localhost;Database=MovieStoreDB;Trusted_Connection=True;"
+}
+5. **Apply database migrations**:
+   dotnet ef database update
+6. **Run the application**: 
+   dotnet run
+
