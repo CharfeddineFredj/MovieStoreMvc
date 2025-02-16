@@ -44,7 +44,7 @@ Assurez-vous d’avoir installé :
 
 ### 📌 Installation & Steps  
 
-```bash
+
 # 1️⃣ Clone the repository  
 git clone https://github.com/CharfeddineFredj/movie-store.git  
 
