@@ -1,4 +1,4 @@
-# Movie Store - Project Overview
+# 🌟 Movie Store - Project Overview
 
 ## 🎬 Introduction
 
