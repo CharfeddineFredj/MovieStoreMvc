@@ -70,7 +70,7 @@ dotnet run
    ---
 ## 📸 Screenshots
 ### 🔑 Authentication Page
-![309056048-2dfbd7fd-6225-4acb-9a18-607f831e607b](https://github.com/user-attachments/assets/365ebfce-c7ac-4406-acc0-1c85c922a85c)
+![309056048-2dfbd7fd-6225-4acb-9a18-607f831e607b](https://github.com/user-attachments/assets/8d939d53-4863-45a1-b66a-74924afde8c1)
 
 ### 🎬 Customer Movie List
 ![Screenshot_13](https://github.com/user-attachments/assets/e12c6f5c-0944-47bb-8d2f-6d711d7e2984)
