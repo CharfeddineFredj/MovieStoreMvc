@@ -34,31 +34,38 @@ The system allows **image uploads** (such as movie posters) and ensures that onl
 - **JavaScript/jQuery** for dynamic client-side interactions
 - **File Handling** for movie image uploads
 
-## 🛠️ Installation and Setup
+## 🛠️ Installation & Setup
 
-### Prerequisites
-- **.NET 6 SDK**
-- **SQL Server** (or SQL Server Express)
-- A code editor like **Visual Studio** or **Visual Studio Code**
+### ✅ Prerequisites  
+Assurez-vous d’avoir installé :  
+- **.NET 6 SDK**  
+- **SQL Server** (ou SQL Server Express)  
+- **Visual Studio** ou **Visual Studio Code**  
 
-### Installation Steps
+### 📌 Installation & Steps  
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/CharfeddineFredj/movie-store.git
-   Navigate to the project folder
- 2.  **cd movie-store**:
-   dotnet restore
-3. **Restore NuGet dependencies**:
-   dotnet restore
-4. **Configure the database connection**:
-"ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=MovieStoreDB;Trusted_Connection=True;"
-}
-5. **Apply database migrations**:
-   dotnet ef database update
-6. **Run the application**: 
-   dotnet run
+```bash
+# 1️⃣ Clone the repository  
+git clone https://github.com/CharfeddineFredj/movie-store.git  
+
+# 2️⃣ Navigate to the project folder  
+cd movie-store  
+
+# 3️⃣ Restore NuGet dependencies  
+dotnet restore  
+
+# 4️⃣ Configure the database connection  
+# (Modifiez le fichier appsettings.json)  
+"ConnectionStrings": {  
+   "DefaultConnection": "Server=localhost;Database=MovieStoreDB;Trusted_Connection=True;"  
+}  
+
+# 5️⃣ Apply database migrations  
+dotnet ef database update  
+
+# 6️⃣ Run the application  
+dotnet run  
+
 
    ---
 ## 📸 Screenshots
