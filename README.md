@@ -45,7 +45,7 @@ The system allows **image uploads** (such as movie posters) and ensures that onl
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/movie-store.git
+   git clone https://github.com/CharfeddineFredj/movie-store.git
    Navigate to the project folder
  2.  **cd movie-store**:
    dotnet restore
