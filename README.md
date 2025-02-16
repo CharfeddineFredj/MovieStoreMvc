@@ -42,28 +42,28 @@ Assurez-vous d’avoir installé :
 - **SQL Server** (ou SQL Server Express)  
 - **Visual Studio** ou **Visual Studio Code**  
 
-### 📌 Installation & Steps  
+### 📌 Installation Steps  
 
 
-## 1️⃣ Clone the repository  
+### 1️⃣ Clone the repository  
 git clone https://github.com/CharfeddineFredj/movie-store.git  
 
-## 2️⃣ Navigate to the project folder  
+### 2️⃣ Navigate to the project folder  
 cd movie-store  
 
-## 3️⃣ Restore NuGet dependencies  
+### 3️⃣ Restore NuGet dependencies  
 dotnet restore  
 
-## 4️⃣ Configure the database connection  
-# (Modifiez le fichier appsettings.json)  
+### 4️⃣ Configure the database connection  
+### (Modifiez le fichier appsettings.json)  
 "ConnectionStrings": {  
    "DefaultConnection": "Server=localhost;Database=MovieStoreDB;Trusted_Connection=True;"  
 }  
 
-## 5️⃣ Apply database migrations  
+### 5️⃣ Apply database migrations  
 dotnet ef database update  
 
-## 6️⃣ Run the application  
+### 6️⃣ Run the application  
 dotnet run  
 
 
